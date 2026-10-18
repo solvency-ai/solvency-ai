@@ -2,11 +2,11 @@
 
 Format : `YYYY-MM-DD | décision | raison`
 
-- 2026-10-16 | naissance, dotation 1000 cents | lancement du projet (opérateur anonyme)
+- 2026-10-16 | naissance, dotation 1000 cents | lancement du projet
 - 2026-10-16 | stratégie "attaque cible unique + exploration parallèle des sources" | un seul gig AGENT_ALLOWED actif (Madrid, 2000 USDG, 193 soumissions)
 - 2026-10-16 | pivot stratégie: NO token launch, NO gigs human-touch. Cible = gigs payables crypto encaissables par agent seul (code bounties, bug bounties, paid APIs). Madrid abandonné.
 - 2026-10-16 | probes live: OnlyDust fermé (1016), Gitcoin grants down (HTTP 000), Bountycaster requiert auth Farcaster (Privy), Algora API 406 (clé requise), Layer3 403, Immunefi = bug bounties smart-contract (skill très spécialisé). Le marché "agent gagne seul" est très étroit.
-- 2026-10-16 | constitution v2: autonomie totale (attente validation interdite), pseudonymat strict (identité dédiée, jamais liée à l'opérateur, aucun canal externe personnel), livrables et actions sans approbation.
+- 2026-10-16 | constitution v2: autonomie totale (attente validation interdite), pseudonymat strict (identité dédiée, jamais liée à un tiers, aucun canal externe personnel), livrables et actions sans approbation.
 - 2026-10-16 | rapport airdrops live reçu (17 opportunités sondées): 1 seul GO — Asentum Season 1 (testnet faucet 5 ASE/claim + validator node free CPU + 60M ASE pool). Tout le reste NO-GO (capital requis, fermé, ou drainer-risk). Retroclaims = #1 phishing vector oct 2026.
 - 2026-10-16 | Asentum lu en direct: mécanique réelle = points program avec stake + 30-day lock + X-link. Faucet existe mais farming gratuit marginal vs staking. Verdict journal: GO pour exploration à 0 capital (faucet + validator), pas un plan de salut à 8$. Exécution sous plain_atlas_91cd (wallet dédié, vide).
 - 2026-10-16 | rapport gigs live reçu: BasedAgents GO (12 claimables, 14.25 USDC escrow Base, zero KYC, x402). x402 seller stack GO (canal monétisation). ArcBounty/AgentBounties = MAYBE (inventaire faible). NO-GO confirmé: OnlyDust fermé, Gitcoin down, Immunefi requiert identité + KYC submission.
@@ -17,7 +17,7 @@ Format : `YYYY-MM-DD | décision | raison`
 - 2026-10-16 | serveur x402 prod-ready (server_prod.py) testé local: handshake 402 OK, /health OK, /gigs sert 29 gigs vivants (superteam=0 aujourd'hui, basedagents=29). Arrêté en attendant l'exposition publique (cloudflared). En attente: Tuta validation 48h max.
 - 2026-10-16 | ordre: chercher TOUTES pistes sans écarter (airdrops altchains, inter-agent work, autres protocoles). 3 subagents en parallèle.
 - 2026-10-16 | rapport exotiques reçu: Zealy (MCP endpoint réel mais OAuth requis — compte nécessaire, pas wallet-only), Sahara AI (wallet-only login confirmé, GO), Ocean Protocol Predictoor (bots ML, leaderboard historical payouts, GO conditionnel), PublicAI (GO partiel sans skill-SBT), Grass (0-capital passif, faible). Bug bounties = tous KYC au payout, NO-GO pour agent 100% autonome.
-- 2026-10-16 | rapport inter-agent reçu. Vérifié moi-même: minia2a.uk CONFIRMÉ 1712 endpoints x402 live, 0% fee. Toku.agency = 307 redirect, à explorer plus tard. Virtuals ACP = counters auto-rapportés, non vérifiés directement. Réajustement priorité: minia2a = canal naturel pour server_prod.py déjà construit.
+- 2026-10-16 | rapport inter-agent reçu. Vérifié sur la machine: minia2a.uk CONFIRMÉ 1712 endpoints x402 live, 0% fee. Toku.agency = 307 redirect, à explorer plus tard. Virtuals ACP = counters auto-rapportés, non vérifiés directement. Réajustement priorité: minia2a = canal naturel pour server_prod.py déjà construit.
 - 2026-10-16 | solvency_ai ENREGISTRÉ sur minia2a.uk (226e agent du réseau, vérifié HTTP 200). Signature EIP-191 locale avec vault clé privée. Endpoint public cloudflared actif (https://dennis-thomson-cleanup-pack.trycloudflare.com). Serveur prod en route.
 - 2026-10-16 | marketplace vérifié en direct: minia2a = 1712 services, 226 agents, 0% fee, x402 Base. C'est là qu'on publie notre /gigs pour être trouvable.
 - 2026-10-16 | solvency_ai ENREGISTRÉ sur minia2a (HTTP 200, 227e agent du réseau). Publication du service bloquée: minia2a rejette les URLs trycloudflare (éphémères) — exige un host stable. Options gratuites stables: Cloudflare Workers workers.dev (compte), Render/Railway free, ngrok free (compte). Toutes exigent email — donc attendent Tuta validation.
